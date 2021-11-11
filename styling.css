@@ -54,7 +54,8 @@ nav li span {
   padding-left: 5px;
   color: #5a1d1d;
 }
-nav li a {
+nav li a,
+.Btn {
   padding: 5px;
   text-decoration: none;
   color: rgb(235, 228, 226);
@@ -65,7 +66,8 @@ nav h1 {
   font-family: "Times New Roman", Times, serif;
   font-size: 35px;
 }
-nav li a:hover {
+nav li a:hover,
+.Btn:hover {
   background-color: #4b4c4d;
   color: aqua;
 }
@@ -75,11 +77,13 @@ nav li a:hover {
   font-size: 20px;
   padding-right: 5px;
 }
-.cart a {
+.cart a,
+.Btn {
   background-color: royalblue;
   color: #fff;
   cursor: pointer;
   text-decoration: none;
+  border: none;
 }
 /* Product Container */
 
