@@ -54,8 +54,7 @@ nav li span {
   padding-left: 5px;
   color: #5a1d1d;
 }
-nav li a,
-.Btn {
+nav li a {
   padding: 5px;
   text-decoration: none;
   color: rgb(235, 228, 226);
@@ -77,13 +76,19 @@ nav li a:hover,
   font-size: 20px;
   padding-right: 5px;
 }
-.cart a,
-.Btn {
+.cart a {
   background-color: royalblue;
   color: #fff;
   cursor: pointer;
   text-decoration: none;
+}
+.Btn {
+  background-color: royalblue;
+  color: #fff;
+  cursor: pointer;
   border: none;
+  font-size: 15px;
+  padding: 3px;
 }
 /* Product Container */
 
