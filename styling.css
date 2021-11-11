@@ -243,7 +243,7 @@ nav li a:hover {
   flex-direction: column;
 }
 .clearCartBtn {
-  font-size: 10px;
+  font-size: 12px;
   font-family: "Times New Roman", Times, serif;
   background-color: red;
   color: #fff;
@@ -251,12 +251,13 @@ nav li a:hover {
   border-width: 1px;
   width: 50%;
   margin: auto;
+  padding: 5px;
 }
 .checkoutBtn {
   background-color: rgb(0, 17, 255);
   color: #fff;
   padding: 5px;
-  border-radius: 15px;
+  border-radius: 2px;
   border-width: 1px;
 }
 .checkoutBtn a {
@@ -309,89 +310,6 @@ iframe {
   height: 530px;
 }
 
-/*Modal*/
-.modal {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%) scale(0);
-  transition: 200ms ease-in-out;
-  border: 1px solid black;
-  border-radius: 10px;
-  z-index: 10;
-  background-color: white;
-  width: 500px;
-  max-width: 80%;
-}
-
-.modal.active {
-  transform: translate(-50%, -50%) scale(1);
-}
-
-.modal-header {
-  padding: 10px 15px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  border-bottom: 1px solid black;
-}
-
-.modal-header .title {
-  font-size: 1.25rem;
-  font-weight: bold;
-}
-
-.modal-header .close-button {
-  cursor: pointer;
-  border: none;
-  outline: none;
-  background: none;
-  font-size: 1.25rem;
-  font-weight: bold;
-}
-
-.modal-body {
-  padding: 10px 15px;
-}
-
-#overlay {
-  position: fixed;
-  opacity: 0;
-  transition: 200ms ease-in-out;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: rgba(0, 0, 0, 0.5);
-  pointer-events: none;
-}
-
-#overlay.active {
-  opacity: 1;
-  pointer-events: all;
-}
-
-form input {
-  width: 500px;
-  max-width: 80%;
-  padding: 5px;
-  border-radius: 5px;
-  margin-top: 5px;
-}
-form button {
-  margin-top: 5px;
-  border-radius: 5px;
-  padding: 5px;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  background-color: rgb(168, 27, 27);
-  color: #fff;
-}
-form button:hover {
-  background-color: #fff;
-  color: rgb(3, 3, 3);
-  cursor: pointer;
-  transition: all 0.4s;
-}
 /*Footer*/
 hr {
   width: 80%;
@@ -480,7 +398,7 @@ hr {
 .desc p {
   margin-left: 30%;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  color: rgb(11, 1, 66);
+  color: rgb(228, 227, 235);
   font-size: 30px;
 }
 .sale {

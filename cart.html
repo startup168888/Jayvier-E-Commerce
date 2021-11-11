@@ -62,46 +62,9 @@
           Clear Cart
         </button>
         <br />
-        <button data-modal-target="#modal" class="checkoutBtn">CheckOut</button>
-        <div class="modal" id="modal">
-          <div class="modal-header">
-            <div class="title">Customer's Information</div>
-            <button data-close-button class="close-button">&times;</button>
-          </div>
-          <div class="modal-body">
-            <form
-              action="https://formsubmit.co/startup168888@gmail.com"
-              method="POST"
-            >
-              <input type="hidden" name="_subject" value="New Order!" />
-              <input type="hidden" name="_captcha" value="false" />
-              <input type="text" name="name" required placeholder="Name" />
-              <input type="email" name="email" required placeholder="Email" />
-              <input
-                type="text"
-                name="address"
-                required
-                placeholder="Address"
-              />
-              <input
-                type="text"
-                name="contact"
-                required
-                placeholder="Contact Number"
-              />
-              <input id="orders" type="text" name="orders" required readonly />
-              <input id="total" type="text" name="total" required readonly />
-              <input
-                type="hidden"
-                name="_next"
-                value="https://e-commerce--2.herokuapp.com/payment.html"
-              />
-              <button type="submit" onclick="thanks()">Submit</button>
-            </form>
-          </div>
-        </div>
-
-        <div id="overlay"></div>
+        <button class="checkoutBtn" onclick="toPaymentPage();">
+          Proceed to CheckOut
+        </button>
       </div>
     </div>
 
